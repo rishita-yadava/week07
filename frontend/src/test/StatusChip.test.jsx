@@ -17,7 +17,7 @@ describe("StatusChip", () => {
     );
 
     expect(
-            screen.getByText("this-will-not-match")
+            screen.getByText("active")
     ).toBeInTheDocument();
   });
 
